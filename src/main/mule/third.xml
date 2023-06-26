@@ -15,7 +15,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
 ---
-"deployed through jenkins"]]></ee:set-payload>
+"deployed to cloudhub through jenkins"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="5266825d-8906-4560-b393-f2a656875724" message="#[payload]"/>
